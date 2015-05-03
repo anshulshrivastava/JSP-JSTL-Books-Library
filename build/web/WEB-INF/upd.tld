@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib>
+   <tlib-version>1.0</tlib-version>
+   <jsp-version>1.2</jsp-version>
+   <short-name>Sample Tag</short-name>
+<tag>
+    <name>test</name>
+    <tag-class>codes.dbUpdate</tag-class>
+    <body-content>empty</body-content>
+    
+     <attribute>
+       <name>insert1</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+      <attribute>
+       <name>insert2</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+       <attribute>
+       <name>insert3</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+       <attribute>
+       <name>insert4</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+       <attribute>
+       <name>insert5</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+       
+     
+       <attribute>
+       <name>insert6</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+      
+       <attribute>
+       <name>insert7</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+     
+     
+       <attribute>
+       <name>insertion</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+     
+     
+       <attribute>
+       <name>con</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+       <attribute>
+       <name>deleteoption</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+       <attribute>
+       <name>deletevalue</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+       <attribute>
+       <name>pageName</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+     
+     
+     
+      <attribute>
+       <name>updateoption</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+       <attribute>
+       <name>setvalue</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+       <attribute>
+       <name>radio</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+       <attribute>
+       <name>getvalue</name>
+       <required>false</required>
+       <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     
+     
+     
+     
+    </tag>
+</taglib>
