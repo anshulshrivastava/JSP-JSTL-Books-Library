@@ -113,9 +113,6 @@ public class JDBC {
         List<String> lists8 = new ArrayList<String>();
         List<String> lists9 = new ArrayList<String>();
 
-      
-            
-            
                if("delete1".equals(deleteoption)){
             
               try {
@@ -161,11 +158,6 @@ public class JDBC {
                 }
                }
               
-              
-               
-               
-               
-               
                 else if("delete2".equals(deleteoption)){
                      try {
                     Statement stmt = conn.createStatement();
@@ -214,9 +206,6 @@ public class JDBC {
                
                
                
-               
-               
-             
             
                else if("Authors.LastName".equals(deleteoption)){
                      try {
